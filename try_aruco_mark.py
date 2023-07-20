@@ -1,3 +1,9 @@
+# -----------------------------------------------------------------------------------
+# The script using sample ArUco marker of 3X3 cm as referance to measure the objects 
+# height(d1), width(d2) and area = pi * d1/2 * d2/2
+# here d1 and d2 are two different diameters of circular objects
+# -----------------------------------------------------------------------------------
+
 import cv2, numpy as np, math
 
 # Load the image
